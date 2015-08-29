@@ -26,3 +26,23 @@ else
 	puts 'Your future is troubling'
 	puts 'I really have to go'
 end
+
+#Loops
+command = '' 
+while command != 'bye'
+	puts command
+	command = gets.chomp
+end
+puts 'come again soon!'
+
+#Or
+
+puts 'Hello, what is your name?'
+name = gets.chomp
+if (name == 'Raju' or name == 'Jim')
+puts 'Hello, ' + name + '.'
+puts 'What a nice name!'
+else 
+	puts 'I see...'
+end
+
