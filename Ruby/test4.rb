@@ -7,5 +7,10 @@ languages.each do |lang|
 end
 puts 'What other languages do you like?'
 input = gets.chomp
-puts 'Whooo! Let\'s hear it for ' + input + '!'
-puts '...'
+if (input == 'C++' or input == 'Python' or input == 'Java')
+	puts 'Oh, you like weird languages...'
+else
+	puts 'Nice, I love ' + input + '! You picked some good languages, my friend.'
+	puts 'Whooo! Let\'s hear it for ' + input + '!'
+end
+
