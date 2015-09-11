@@ -2,13 +2,11 @@
 
 puts 'Welcome to City 17. My name is Alex, what is your name?'
 name = gets.chomp
-if name == 'Alex' or name == 'alex'
+if name == 'Alex'
 	puts 'That\'s my name. Pick a new name, you fraud!'
 	new_name = gets.chomp
+	puts 'That\'s better. Welcome, ' + new_name + '. Welcome to City 17.'
 else
-	puts 'Welcome, ' + name + ', to City 17.'
+	puts 'Welcome, ' + name + '. Welciome to City 17.'
 end
 
-if gets.chomp == new_name 
-	puts 'Welcome to City 17, ' + new_name 
-end
